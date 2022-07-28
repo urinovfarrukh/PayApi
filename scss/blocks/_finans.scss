@@ -1,0 +1,121 @@
+.finans {
+  margin-bottom: 96px;
+}
+.finans__box {
+}
+.finans__item {
+  list-style-type: none;
+  max-width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.finans__item-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+}
+.finans__item-list-img {
+  align-items: center;
+  width: 106px;
+  height: 106px;
+
+  margin-bottom: 32px;
+}
+.finans__heading {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536b;
+  margin-bottom: 16px;
+}
+.finans__content {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6c8294;
+}
+@media only screen and (max-width: 1090px) {
+  
+  .finans__item-list {
+    width: 340px;
+    
+  }
+
+}
+@media only screen and (max-width: 1080px) {
+  
+  .finans__item-list {
+    width: 300px;
+    
+  }
+
+}
+@media only screen and (max-width: 970px) {
+  
+  .finans__item-list {
+    width: 280px;
+    
+  }
+
+}
+@media only screen and (max-width: 800px) {
+  
+  .finans__item-list {
+    width: 250px;
+    
+  }
+
+}
+@media only screen and (max-width: 770px) {
+  
+  .finans__item-list {
+    width: 223px;
+    
+  }
+  
+}
+@media only screen and (max-width: 700px) {
+  .finans__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .finans__item-list {
+    width: 400px;margin-bottom: 35px;
+    
+  }
+  
+}
+
+@media only screen and (max-width: 320px) {
+  .finans__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .finans__item-list {
+    width: 328px;
+    margin-bottom: 48px;
+  }
+  .finans__item-list-img {
+    margin-bottom: 33px;
+  }
+  .finans__heading {
+    margin-bottom: 16px;
+  }
+  .finans__content {
+  }
+}

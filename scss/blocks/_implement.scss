@@ -1,0 +1,129 @@
+.implement {
+
+
+}
+.implament__box {
+  max-width: 1015px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.implament__img {
+  width: 445px;
+  height: 284px;
+
+}
+.implament__box-mini {
+  max-width: 445px;
+}
+.implament__headings {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+}
+.implament__content {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 770px){
+  .implament__box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px){
+  .implament__img{
+    width: 410px;
+    height: 250px;
+  }
+
+  .implament__box-mini{
+    max-width: 480px;
+    text-align: center;
+  } 
+  .implament__headings {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+  }
+  .implament__content{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+  }
+}
+
+
+@media only screen and (max-width: 440px){
+  .implament__img{
+    width: 400px;
+    height: 230px;
+  }
+  .implament__headings {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+  }
+  .implament__content{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+  }
+}
+
+
+@media only screen and (max-width: 320px){
+  .implament__img{
+    width: 328px;
+    height: 209px;
+  }
+  .implament__box-mini{
+    max-width: 328px;
+  }
+  .implament__headings {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.276923px;
+  }
+  .implament__content{
+    
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+  }
+}
