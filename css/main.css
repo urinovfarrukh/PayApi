@@ -318,6 +318,8 @@ html {
 *::after {
   box-sizing: inherit;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -580,6 +582,7 @@ img {
     height: 300px;
     margin-right: auto;
     border-radius: 20px;
+    margin-bottom: 48px;
   }
   .hero__heading {
     font-family: "DM Serif Display";
@@ -590,6 +593,7 @@ img {
     text-align: center;
     letter-spacing: -0.369231px;
     color: #36536B;
+    margin-bottom: 22px;
   }
   .hero__content {
     font-family: "Public Sans";
@@ -598,6 +602,7 @@ img {
     font-size: 15px;
     line-height: 18px;
     color: #6C8294;
+    margin-top: 16px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -655,7 +660,19 @@ img {
   }
 }
 .brands {
+  background-image: url("../../images/bg-img-light.png");
+  background-size: 780px 780px;
+  background-position: calc(50% - 580px) -365px;
+  background-repeat: no-repeat;
   background-color: #1B262F;
+  margin-bottom: 150px;
+}
+
+.brands__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
 }
 
 .brands__mini-box {
@@ -670,6 +687,7 @@ img {
   line-height: 56px;
   letter-spacing: -0.369231px;
   color: #FBFCFE;
+  margin-bottom: 24px;
 }
 
 .brands__content {
@@ -711,4 +729,38 @@ img {
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brands__list-item:nth-child(1), .brands__list-item:nth-child(2), .brands__list-item:nth-child(3) {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .brands {
+    background-position: center calc(50% - 450px);
+  }
+  .brands__box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .brands__mini-box {
+    max-width: 480px;
+    text-align: center;
+  }
+  .brands__list {
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .brands__content {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .brands__list-item-link-img {
+    width: 155px;
+    height: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
